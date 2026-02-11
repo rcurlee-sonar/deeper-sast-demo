@@ -5,7 +5,7 @@ on:
     branches:
       - main
 #      - develop
-#      - 'releases/**'
+      - 'releases/**'
   pull_request:
     types: [opened, synchronize, reopened]
 
