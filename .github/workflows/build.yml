@@ -39,4 +39,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=rcurlee-sonar_deeper-sast-demo_2792d4d7-21aa-4d7b-bf65-2bb048dc4139 -Dsonar.projectName='deeper-sast-demo'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=rcurlee-sonar_deeper-sast-demo_338ccc2f-2021-41ff-967b-1c6f9a7b2f45 -Dsonar.projectName='deeper-sast-demo'
