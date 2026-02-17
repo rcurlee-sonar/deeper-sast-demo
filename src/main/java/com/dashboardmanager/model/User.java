@@ -16,6 +16,9 @@ public class User {
     @Column
     private String password;
 
+    // This should result in a secret dection issue
+    private String token = "sqp_c4d37911d019a2a70900bfb38d7d8fdaa";
+
     public void setId(Integer id) { this.id = id; }
     public Integer getId() { return this.id; }
 
